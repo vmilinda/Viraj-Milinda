@@ -29,6 +29,7 @@
             <h3>And I'm a <span class="multiple-text"></span></h3>
             <p>Hi I am Viraj Milinda from Nittambuwa.Currently following a Software Engineering Course at Insitute of Computer Engineering-Panadura</p>
                   <div class="social-media">
+                    <a href=" https://wa.me/+94701675234"><i class='bx bxl-whatsapp'></i></a>
                     <a href="https://www.facebook.com/viraj.milinda.2002"><i class='bx bxl-facebook-circle' ></i></a>
                     <a href="https://tiktok.com/@mn_creati0n"><i class='bx bxl-tiktok'></i></a>
                     <a href="https://www.instagram.com/v_rajmilinda/"><i class='bx bxl-instagram-alt' ></i></a>
@@ -155,15 +156,15 @@
 
         <form action="#">
             <div class="input-box">
-                <input type="text" placeholder="Full Name">
-                <input type="email" placeholder="Email">
+                <input type="text" id="name" placeholder="Full Name">
+                <input type="email" id="email" placeholder="Email">
             </div>
             <div class="input-box">
-                <input type="number" placeholder="Mobile Number">
-                <input type="text" placeholder="Email Subject">
+                <input type="number" id="number" placeholder="Mobile Number">
+                <input type="text" id="subject" placeholder="Email Subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-            <input type="submit" value="Send Message" class="btn ">
+            <textarea name="" id="Message" cols="30" rows="10" placeholder="Your Message Here"></textarea>
+            <input type="submit" id="submit" value="Send Message" class="btn ">
         </form>
     </section>
 
@@ -184,6 +185,8 @@
 
 
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 
     <!-- custom js -->
     <script src="script.js"></script>
